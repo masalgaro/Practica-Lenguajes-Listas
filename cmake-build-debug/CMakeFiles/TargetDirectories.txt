@@ -1,0 +1,3 @@
+C:/Mis Cosas/uni shit/Listas Enlazadas Lenguajes/cmake-build-debug/CMakeFiles/Listas_Enlazadas_Lenguajes.dir
+C:/Mis Cosas/uni shit/Listas Enlazadas Lenguajes/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Mis Cosas/uni shit/Listas Enlazadas Lenguajes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
