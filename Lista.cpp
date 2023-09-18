@@ -68,18 +68,6 @@ void Lista::visualizar() {
         else{
             cient = "Rosen";
         }
-        //Primero revisar si sucedería una singularidad para el EventoC
-        //Principalmente para que el programa tenga en cuenta la secuencia de eventos que debe pasar primero.
-        /*if (EventoA(n->getDataNodo(), n->getCientNodo())){
-            tipoEvento = "A";
-            datosA = n->getDataNodo();
-        }
-        if (EventoB(n->getDataNodo())){
-            tipoEvento = "B";
-        }
-        if (EventoC(n->getDataNodo(), datosA, n->getCientNodo())){
-            tipoEvento = "C";
-        }*/
         char c;
         k++;
         c = (k % 15 != 0 ? ' ' : '\n');
@@ -139,7 +127,7 @@ void Lista::buscaEventos(){
                 cout << "El cientifico " << cientifico << " logro viajar pero solo a ver..." << endl;
                 cout << "---------------------" << endl; //Hacer un separador para que se vea más bonito
                 n = n->getEnlaceAdelanteNodo();
-                continue;
+                break;
             }
             cout << "El cientifico " << cientifico << " le entrego la informacion " << datos << " a Einstein c:" << endl;
             cout << "---------------------" << endl; //Hacer un separador para que se vea más bonito
