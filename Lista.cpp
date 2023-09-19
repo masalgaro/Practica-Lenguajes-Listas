@@ -59,7 +59,6 @@ void Lista::visualizar() {
     int k = 0;
     n = primero;
     m = anterior;
-    //int datosA;
     cout << "Los eventos generados fueron los siguientes" << endl;
     while (n != NULL) {
         if (n->getCientNodo() == 1){
