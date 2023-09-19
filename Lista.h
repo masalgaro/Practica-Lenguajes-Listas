@@ -10,7 +10,7 @@ protected:
     Nodo *anterior; //para representar el nodo anterior
 public:
 
-    Lista();//Constructor de la lista. Al crearse la lista se debe inicializar el puntero *primero (head)  de modo que apunte a NULL
+    Lista();//Constructor de la lista. Al crearse la lista se debe inicializar el puntero *primero (head) de modo que apunte a NULL
 
     void crearLista();
 
