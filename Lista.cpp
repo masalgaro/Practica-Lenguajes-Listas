@@ -69,7 +69,7 @@ void Lista::visualizar() {
         }
         char c;
         k++;
-        c = (k % 15 != 0 ? ' ' : '\n');
+        c = (k % 17 != 0 ? ' ' : '\n');
         cout << n->getDataNodo() << "|" << cient << " -" << c;
         n = n->getEnlaceAdelanteNodo();
         m = m->getEnlaceAtrasNodo();
