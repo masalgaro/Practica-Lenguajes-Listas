@@ -123,12 +123,12 @@ void Lista::buscaEventos(){
             contadorC++;
             if(esPrimo(datos)) {
                 cout << "Ha ocurrido una singularidad!" << endl; //Esto se podría cambiar a un condicional aparte fuera de la función
-                cout << "El cientifico " << cientifico << " logro viajar pero solo a ver..." << endl;
+                cout << "Evento C: El cientifico " << cientifico << " logro viajar pero solo a ver..." << endl;
                 cout << "---------------------" << endl; //Hacer un separador para que se vea más bonito
                 n = n->getEnlaceAdelanteNodo();
                 break;
             }
-            cout << "El cientifico " << cientifico << " le entrego la informacion " << datos << " a Einstein c:" << endl;
+            cout << "Evento C: El cientifico " << cientifico << " le entrego la informacion " << datos << " a Einstein c:" << endl;
             cout << "---------------------" << endl; //Hacer un separador para que se vea más bonito
         }
         n = n->getEnlaceAdelanteNodo();
