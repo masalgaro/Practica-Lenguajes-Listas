@@ -53,12 +53,11 @@ void Lista::insertarCabezaLista(int datos, int cientifico) {
 
 void Lista::visualizar() {
     Nodo *n;
-    Nodo *m;
+    //Nodo *m;
     string cient;
-    string tipoEvento;
     int k = 0;
     n = primero;
-    m = anterior;
+    //m = anterior;
     cout << "Los eventos generados fueron los siguientes" << endl;
     while (n != NULL) {
         if (n->getCientNodo() == 1){
@@ -72,7 +71,7 @@ void Lista::visualizar() {
         c = (k % 17 != 0 ? ' ' : '\n');
         cout << n->getDataNodo() << "|" << cient << " -" << c;
         n = n->getEnlaceAdelanteNodo();
-        m = m->getEnlaceAtrasNodo();
+        //m = m->getEnlaceAtrasNodo();
     }
     cout << endl;
 }
