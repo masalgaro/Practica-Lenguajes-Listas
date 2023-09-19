@@ -14,7 +14,7 @@ protected:
 public:
     Nodo(int t, int u);
 
-    Nodo(int p, int q, Nodo *n, Nodo *m);
+    Nodo(int d, int c, Nodo *n, Nodo *m);
 
     int getDataNodo() const; //const = no modifica la información que busca el método. Solo es consulta
 
